@@ -1,0 +1,135 @@
+﻿@{
+    ViewData["Title"] = "Coming soon";
+}
+
+    <div class="logo-image">
+        <a asp-area="" asp-controller="Home" asp-action="Index"><img class="img-responsive" src="~/images/logo.png" alt=""></a>
+    </div>
+<section id="home-slider">
+    <div class="container">
+        <div class="row">
+            <div class="main-slider animate-in">
+                <div class="slide-text">
+                    <h1>We Are Creative Nerds</h1>
+                    <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
+                    @*<a href="#" class="btn btn-common">SIGN UP</a>*@
+                    <section id="coming-soon">
+                        <div class="text-center coming-content">
+                            <div class="social-link">
+                                <span><a href="#"><i class="fa fa-facebook"></i></a></span>
+                                <span><a href="#"><i class="fa fa-twitter"></i></a></span>
+                                <span><a href="#"><i class="fa fa-google-plus"></i></a></span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <img src="~/images/home/slider/hill.png" class="slider-hill" alt="slider image">
+                <img src="~/images/home/slider/house.png" class="slider-house" alt="slider image">
+                <img src="~/images/home/slider/sun.png" class="slider-sun" alt="slider image">
+                <img src="~/images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+                <img src="~/images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+            </div>
+        </div>
+    </div>
+    <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+</section>
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center padding wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="single-service">
+                    <div class="wow scaleIn animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="~/images/home/icon1.png" alt="">
+                    </div>
+                    <h2>Incredibly Responsive</h2>
+                    <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="single-service">
+                    <div class="wow scaleIn animated" data-wow-duration="500ms" data-wow-delay="600ms">
+                        <img src="~/images/home/icon2.png" alt="">
+                    </div>
+                    <h2>Superior Typography</h2>
+                    <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center padding wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="900ms">
+                <div class="single-service">
+                    <div class="wow scaleIn animated" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <img src="~/images/home/icon3.png" alt="">
+                    </div>
+                    <h2>Swift Page Builder</h2>
+                    <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@*<section id="action" class="responsive">
+        <div class="vertical-center">
+            <div class="container">
+                <div class="row">
+                    <div class="action take-tour">
+                        <div class="col-sm-7 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <h1 class="title">Triangle Corporate Template</h1>
+                            <p>A responsive, retina-ready &amp; wide multipurpose template.</p>
+                        </div>
+                        <div class="col-sm-5 text-center wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div class="tour-button">
+                                <a href="#" class="btn btn-common">TAKE THE TOUR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+
+<section id="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2><i class="fa fa-envelope-o"></i> SUBSCRIBE TO OUR NEWSLETTER</h2>
+                        <p>Quis filet mignon proident, laboris venison tri-tip commodo brisket aute ut. Tail salami pork belly, flank ullamco bacon bresaola do beef<br /> laboris venison tri-tip.</p>
+                    </div>
+                    <div class="col-sm-6 newsletter">
+                        <form id="newsletter">
+                            <input class="form-control" type="email" name="email" value="" placeholder="Enter Your email">
+                            <i class="fa fa-check"></i>
+                        </form>
+                        <p>Don't worry we will not use your email for spam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="coming-soon-footer" class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="text-center">
+                <p>&copy; Your Company 2014. All Rights Reserved.</p>
+                <p>Crafted by <a target="_blank" href="http://designscrazed.org/">Allie</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="~/text/javascript" src="~/js/jquery.js"></script>
+<script type="~/text/javascript" src="~/js/bootstrap.min.js"></script>
+@*<script type="~/text/javascript" src="~/js/coundown-timer.js"></script>*@
+<script type="~/text/javascript" src="~/js/wow.min.js"></script>
+<script type="~/text/javascript" src="~/js/main.js"></script>
+@*<script type="~/text/javascript">
+            //Countdown js
+         $("#countdown").countdown({
+                date: "10 march 2015 12:00:00",
+                format: "on"
+            },
+            function() {
+                // callback function
+        });
+    </script>*@
