@@ -1,11 +1,14 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatherCarry.Dimension", "MatherCarry\MatherCarry.Dimension.csproj", "{AAD55AF3-6347-4674-80F2-41F0622AB7FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatherCarry.Triangle", "MatherCarry.Triangle\MatherCarry.Triangle.csproj", "{0CF0BBFF-3531-452C-AB82-6C66CA05003C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{1304E69A-3FA9-4685-8C38-0AB4183FFFE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatherCarry.Stellar", "MatherCarry.Stellar\MatherCarry.Stellar.csproj", "{53ED9140-8158-4B42-8BC8-F097AA6AB831}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{99D67B36-5FAE-4B97-BFD6-1FEBF5F23BA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +24,16 @@ Global
 		{0CF0BBFF-3531-452C-AB82-6C66CA05003C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF0BBFF-3531-452C-AB82-6C66CA05003C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF0BBFF-3531-452C-AB82-6C66CA05003C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1304E69A-3FA9-4685-8C38-0AB4183FFFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1304E69A-3FA9-4685-8C38-0AB4183FFFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1304E69A-3FA9-4685-8C38-0AB4183FFFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1304E69A-3FA9-4685-8C38-0AB4183FFFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53ED9140-8158-4B42-8BC8-F097AA6AB831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53ED9140-8158-4B42-8BC8-F097AA6AB831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53ED9140-8158-4B42-8BC8-F097AA6AB831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53ED9140-8158-4B42-8BC8-F097AA6AB831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D67B36-5FAE-4B97-BFD6-1FEBF5F23BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D67B36-5FAE-4B97-BFD6-1FEBF5F23BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D67B36-5FAE-4B97-BFD6-1FEBF5F23BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D67B36-5FAE-4B97-BFD6-1FEBF5F23BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

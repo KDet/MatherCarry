@@ -74,7 +74,7 @@ module.exports = function (grunt) {
         src: 'js/tests/unit/*.js'
       },
       assets: {
-        src: ['docs/assets/js/src/*.js', 'docs/assets/js/*.js', '!docs/assets/js/*.min.js']
+        src: ['docs/~js/src/*.js', 'docs/~js/*.js', '!docs/~js/*.min.js']
       }
     },
 
@@ -137,11 +137,11 @@ module.exports = function (grunt) {
       },
       customize: {
         src: configBridge.paths.customizerJs,
-        dest: 'docs/assets/js/customize.min.js'
+        dest: 'docs/~js/customize.min.js'
       },
       docsJs: {
         src: configBridge.paths.docsJs,
-        dest: 'docs/assets/js/docs.min.js'
+        dest: 'docs/~js/docs.min.js'
       }
     },
 
@@ -194,7 +194,7 @@ module.exports = function (grunt) {
         src: 'dist/css/<%= pkg.name %>-theme.css'
       },
       docs: {
-        src: ['docs/assets/css/src/docs.css']
+        src: ['docs/~css/src/docs.css']
       },
       examples: {
         expand: true,
@@ -220,7 +220,7 @@ module.exports = function (grunt) {
           ids: false,
           'overqualified-elements': false
         },
-        src: 'docs/assets/css/src/docs.css'
+        src: 'docs/~css/src/docs.css'
       }
     },
 
@@ -244,11 +244,11 @@ module.exports = function (grunt) {
       },
       docs: {
         src: [
-          'docs/assets/css/ie10-viewport-bug-workaround.css',
-          'docs/assets/css/src/pygments-manni.css',
-          'docs/assets/css/src/docs.css'
+          'docs/~css/ie10-viewport-bug-workaround.css',
+          'docs/~css/src/pygments-manni.css',
+          'docs/~css/src/docs.css'
         ],
-        dest: 'docs/assets/css/docs.min.css'
+        dest: 'docs/~css/docs.min.css'
       }
     },
 
@@ -269,8 +269,8 @@ module.exports = function (grunt) {
         dest: 'docs/examples/'
       },
       docs: {
-        src: 'docs/assets/css/src/docs.css',
-        dest: 'docs/assets/css/src/docs.css'
+        src: 'docs/~css/src/docs.css',
+        dest: 'docs/~css/src/docs.css'
       }
     },
 

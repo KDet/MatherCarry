@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  mathercarry.stellar:
+    image: mathercarry.stellar
+    build:
+      context: ./MatherCarry.Stellar
+      dockerfile: Dockerfile
